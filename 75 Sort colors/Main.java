@@ -5,7 +5,7 @@ class Main {
 
         Solution solution = new Solution();
 
-        int[] res1 = solution.setColors(arr); // For notmal approach
+        int[] res1 = solution.setColors(arr); // For normal approach
 
         for (int i : res1) {
             System.out.print(i + " ");      // Printing the result !!
@@ -81,4 +81,5 @@ class Solution {
         }
         return arr;
     }
+
 }
